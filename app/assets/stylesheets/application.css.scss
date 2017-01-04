@@ -51,6 +51,18 @@ background: linear-gradient(to left, #673AB7 , #512DA8); /* W3C, IE 10+/ Edge, F
     }
 }
 
+// Nav bar mobile style
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #512DA8;
+    }
+}
+
 // Homepage styles
 .home-callout {
     margin-top: -20px;
